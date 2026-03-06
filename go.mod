@@ -1,6 +1,6 @@
 module github.com/qor/qor
 
-go 1.24
+go 1.25
 
 require (
 	github.com/go-sql-driver/mysql v1.5.0
@@ -8,8 +8,8 @@ require (
 	github.com/jinzhu/gorm v1.9.16
 	github.com/jinzhu/now v1.1.1
 	github.com/lib/pq v1.8.0
-	github.com/microcosm-cc/bluemonday v1.0.21
-	github.com/qor/admin v1.2.1-0.20241221082709-7177299dbbfd
+	github.com/microcosm-cc/bluemonday v1.0.27
+	github.com/qor/admin v1.2.1-0.20251125093313-4a292fdc9c5d
 	github.com/qor/publish2 v0.0.0-20200729081509-d97fdb5620a5
 	github.com/qor/roles v0.0.0-20171127035124-d6375609fe3e
 	github.com/qor/sorting v0.0.0-20200724034229-cdba739ba535
@@ -20,7 +20,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
-	github.com/gorilla/css v1.0.0 // indirect
+	github.com/gorilla/css v1.0.1 // indirect
 	github.com/gorilla/securecookie v1.1.1 // indirect
 	github.com/gorilla/sessions v1.2.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
@@ -36,6 +36,6 @@ require (
 	github.com/qor/worker v0.0.0-20190805090529-35a245417f70 // indirect
 	github.com/rainycape/unidecode v0.0.0-20150907023854-cb7f23ec59be // indirect
 	github.com/theplant/cldr v0.0.0-20190423050709-9f76f7ce4ee8 // indirect
-	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
 )
